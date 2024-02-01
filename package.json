@@ -1,0 +1,15 @@
+{
+  "name": "dam",
+  "version": "1.0.0",
+  "description": "damdeprime",
+  "main": "dam.html",
+  "scripts": {
+    "start": "node dam.js"
+  },
+  "engines": {
+    "node": "v16.15.1"
+  },
+  "dependencies": {
+
+  }
+}
