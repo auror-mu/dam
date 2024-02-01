@@ -1,3 +1,5 @@
+if (typeof document !== 'undefined') {
+
 const playBtn = document.getElementById('play-btn');
 const imageContainer = document.getElementById('image-container');
 const pageContainer = document.querySelector('.page__container');
@@ -84,3 +86,6 @@ playBtn.addEventListener('click', () => {
     showNextImage();
   }, 10); // Delay to make sure hideHomePage() takes effect before showNextImage()
 });
+} else {
+  
+}
