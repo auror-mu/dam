@@ -1,4 +1,14 @@
 if (typeof document !== 'undefined') {
+  app.use(express.static('images'));
+  app.use(express.static('videos'));
+  const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
 
 const playBtn = document.getElementById('play-btn');
 const imageContainer = document.getElementById('image-container');
@@ -87,5 +97,5 @@ playBtn.addEventListener('click', () => {
   }, 10); // Delay to make sure hideHomePage() takes effect before showNextImage()
 });
 } else {
-  
+
 }
