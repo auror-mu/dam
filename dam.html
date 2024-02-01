@@ -1,0 +1,31 @@
+<!-- dam.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="dam.css">
+</head>
+<body>
+  <div id="image-container">
+
+ <!-- Images will be dynamically added here -->
+  </div>
+  <div class="page__container">
+    <h2>Quel Damdam deprimé est-tu aujourd'hui ?</h2>
+    <button id="play-btn">Lance la deprim'</button>
+    <video id="background-video" autoplay loop muted>
+      <source src="videos/damwindow.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div id="custom-alert" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="custom-alert-message"></p>
+  </div>
+</div>
+  <script src="dam.js"></script>
+</body>
+</html>
