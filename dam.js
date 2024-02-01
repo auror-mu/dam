@@ -1,16 +1,5 @@
 if (typeof document !== 'undefined') {
-  app.use(express.static('images'));
-  app.use(express.static('videos'));
-  const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
-
-
-const playBtn = document.getElementById('play-btn');
+  const playBtn = document.getElementById('play-btn');
 const imageContainer = document.getElementById('image-container');
 const pageContainer = document.querySelector('.page__container');
 const images = [
@@ -87,7 +76,7 @@ function showNextImage() {
   // After displaying the image, wait for 5 seconds and then show the main page
   setTimeout(() => {
     showAlert("Arrêt la déprim'");
-  }, 5000);
+  }, 4000);
 }
 
 playBtn.addEventListener('click', () => {
@@ -98,4 +87,4 @@ playBtn.addEventListener('click', () => {
 });
 } else {
 
-}
+};
