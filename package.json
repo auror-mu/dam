@@ -2,7 +2,7 @@
   "name": "dam",
   "version": "1.0.0",
   "description": "damdeprime",
-  "main": "dam.js",
+  "main": "dam.html",
   "scripts": {
     "start": "node dam.js"
   },
@@ -10,6 +10,6 @@
     "node": "v16.15.1"
   },
   "dependencies": {
-
+    // Add your dependencies here if you have any
   }
 }
