@@ -1,14 +1,19 @@
 {
   "name": "dam",
-  "version": "1.0.1",
-  "description": "damdeprime",
+  "version": "1.0.0",
+  "description": "",
   "main": "dam.js",
   "scripts": {
-    "start": "node dam.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "16.15.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auror-mu/dam.git"
   },
-  "dependencies": {
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auror-mu/dam/issues"
+  },
+  "homepage": "https://github.com/auror-mu/dam#readme"
 }
