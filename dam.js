@@ -3,8 +3,8 @@ if (typeof document !== 'undefined') {
 const imageContainer = document.getElementById('image-container');
 const pageContainer = document.querySelector('.page__container');
 const images = [
-  'images/dam_exclu.jpeg', 'images/dambut.jpeg', 'images/dambut1.jpeg', 'images/dampuni.jpeg',
-  'images/damreve.jpeg', 'images/damsad.jpeg', 'images/damsouffre.jpeg', 'images/damtete.png', 'images/damwatch.jpeg'
+  'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888535/dam_exclu_vsz4hq.jpg', 'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888535/dambut_tr37v4.jpg', 'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888536/dambut1_mlk4p3.jpg', 'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888536/dampuni_h5n4sz.jpg',
+  'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888535/damreve_sohh0u.jpg', 'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888535/damsad_eqap9x.jpg', 'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888535/damsouffre_tgwc5i.jpg', 'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888536/damtete_qzp47x.png', 'https://res.cloudinary.com/dncaa02l9/image/upload/v1706888536/damwatch_gxem5g.jpg'
 ];
 
 // Declare currentIndex as a global variable
