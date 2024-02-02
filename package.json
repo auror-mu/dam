@@ -1,11 +1,20 @@
 {
   "name": "dam",
   "version": "1.0.0",
-  "description": "This will load any static html site",
+  "description": "",
+  "main": "dam.html",
   "scripts": {
-    "start": "harp server --port $PORT"
+    "start": "node dam.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "harp": "*"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auror-mu/dam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auror-mu/dam/issues"
+  },
+  "homepage": "https://github.com/auror-mu/dam#readme"
 }
