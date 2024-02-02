@@ -1,20 +1,23 @@
 {
   "name": "dam",
   "version": "1.0.0",
-  "description": "",
-  "main": "dam.html",
+  "description": "dam app",
+  "main": "server.js",
   "scripts": {
-    "start": "node dam.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/auror-mu/dam.git"
   },
-  "author": "",
+  "author": "auror-mu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/auror-mu/dam/issues"
+  },
+  "engines": {
+    "node": "16.15.1"
   },
   "homepage": "https://github.com/auror-mu/dam#readme"
 }
