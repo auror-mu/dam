@@ -66,6 +66,7 @@ h2 {
     color: rgb(218, 124, 216);;
     position: fixed;
     bottom: 20px;
+    left: 50%;
     transform: translateX(-50%);
 }
 
