@@ -46,28 +46,20 @@ body {
 h2 {
   text-align: center;
   color: white;
-  font-size: 60px;
+  font-size: 6vw;
   position: fixed;
-  top: 20px;
+  top: 5px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
 }
 
-#gotoEndPage {
+#gotoEndPage, #gotoHomePage {
   color: rgb(218, 124, 216);;
   position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-}
-
-  #gotoHomePage {
-    color: rgb(218, 124, 216);;
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 #final-img {
