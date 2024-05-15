@@ -6,15 +6,15 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// Your static site folder name
-app.use(express.static("dam", {
-    setHeaders: (res, path) => {
-        if (path.endsWith('.css')) {
-            res.setHeader('Content-Type', 'text/css');
-        }
-    },
-}));
+// Serve static files from the root directory
+app.use(express.static(path.join(__dirname)));
 
+// Define route for dam-end.html
+app.get("/dam-end.html", (req, res) => {
+    res.sendFile(path.join(__dirname, 'dam-end.html'));
+});
+
+// Start serving the dam.html by default
 app.use("/", (req, res) => {
     res.sendFile(path.join(__dirname, 'dam.html'));
 });

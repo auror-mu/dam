@@ -1,75 +1,76 @@
-h2 {
-  text-align: center;
- margin-top: 20%;
-  color: aliceblue;
-  font-size: 60px;
-}
-button {
-  /* Style your button as needed */
-padding: 10px 20px;
-/* Center the button using absolute positioning */
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-background-color: #9a1246;
-color: aliceblue;
-text-decoration: none;
-font-size: 30px;
-border-radius: 5%;
-
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-button:hover {
-  background-color: #2980b9;
-}
-
-#background-video {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-img{
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#custom-alert {
-  display: none;
+#image-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
 }
 
-.modal-content {
-  padding: 10px 20px;
+#image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#play-btn {
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: rgb(218, 124, 216);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+#gotoEndPage {
+  color: rgb(218, 124, 216);;
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+  #gotoHomePage {
+    color: rgb(218, 124, 216);;
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+#final-img {
+  object-fit: cover;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: aliceblue;
-  color: #9a1246;
-  text-decoration: none;
-  font-size: 30px;
-  border-radius: 5%;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
 }
